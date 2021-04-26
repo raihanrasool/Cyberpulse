@@ -1,0 +1,44 @@
+{
+    "programme_loop_config":
+    {
+        "rerun":0,
+        "rerun_delay_sec":5
+    },
+    "controller":
+    {
+        "controller_ip": "127.0.0.1",
+        "controller_openflow_port": "6653",
+        "controller_rest_port": "8080"
+    },
+    "stat_collector_config":
+    {	
+        "programme_duration_min":1,
+        "collection_interval_sec":5,
+        "flooding_threshold_byteCount":1000,
+        "generate_graph":1
+    },
+    "machine_learning_config":
+    {
+        "model_name":"ML/Pickle_files/LogisticRegression.pkl",
+        "action":"drop_host",
+        "confidence_level":80
+    },
+    "important_link":
+    {
+        "switch_id":"00:00:00:00:00:00:00:01",
+        "port_number":1
+    },
+    "traffic_config":
+    {
+        "link_capacity_in_Mbit":10,
+        "switch_count":5,
+        "host_per_switch":1,
+        "iperf_server":"10.0.0.1",
+        "traffic_duration_min":1,
+        "iperf_client":[
+	      {"host_ip":"10.0.0.2"},
+            {"host_ip":"10.0.0.3"},
+            {"host_ip":"10.0.0.4"}
+        ]
+    }
+}

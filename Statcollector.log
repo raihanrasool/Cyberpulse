@@ -1,0 +1,177 @@
+DEBUG   :    22:37:18:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:18:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/controller/switches/json HTTP/1.1" 200 None
+DEBUG   :    22:37:18:    StatLoop: line 385 : Loading Model ML/Pickle_files/LogisticRegression.pkl 
+DEBUG   :    22:37:18:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:19:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:37:19:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:20:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:37:20:     ApplyML: line 363 : Classification prediction: [0], confidence: 0.9999999094255744
+DEBUG   :    22:37:20:     ApplyML: line 368 : Applying action drophost with confidence level 99.99999094255743 source IP 10.0.0.2
+DEBUG   :    22:37:20:     ApplyML: line 363 : Classification prediction: [0], confidence: 0.999999909396161
+DEBUG   :    22:37:20:     ApplyML: line 368 : Applying action drophost with confidence level 99.9999909396161 source IP 10.0.0.3
+DEBUG   :    22:37:20:     ApplyML: line 363 : Classification prediction: [0], confidence: 0.999999909366738
+DEBUG   :    22:37:20:     ApplyML: line 368 : Applying action drophost with confidence level 99.9999909366738 source IP 10.0.0.4
+DEBUG   :    22:37:20:     ApplyML: line 363 : Classification prediction: [0], confidence: 0.9349013769891438
+DEBUG   :    22:37:20:     ApplyML: line 368 : Applying action drophost with confidence level 93.49013769891438 source IP 10.0.0.5
+DEBUG   :    22:37:20:     ApplyML: line 363 : Classification prediction: [0], confidence: 0.999999909396161
+DEBUG   :    22:37:20:     ApplyML: line 368 : Applying action drophost with confidence level 99.9999909396161 source IP 10.0.0.3
+DEBUG   :    22:37:20:     ApplyML: line 363 : Classification prediction: [0], confidence: 0.999999909366738
+DEBUG   :    22:37:20:     ApplyML: line 368 : Applying action drophost with confidence level 99.9999909366738 source IP 10.0.0.4
+DEBUG   :    22:37:20:     ApplyML: line 363 : Classification prediction: [0], confidence: 0.9999999094255744
+DEBUG   :    22:37:20:     ApplyML: line 368 : Applying action drophost with confidence level 99.99999094255743 source IP 10.0.0.2
+DEBUG   :    22:37:20:     ApplyML: line 363 : Classification prediction: [0], confidence: 0.9349013769891438
+DEBUG   :    22:37:20:     ApplyML: line 368 : Applying action drophost with confidence level 93.49013769891438 source IP 10.0.0.5
+DEBUG   :    22:37:25:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:26:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:37:26:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:27:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:37:27:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:27:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:27:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:27:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:27:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:27:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:27:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:27:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:37:27:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:27:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:27:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:27:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:27:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:27:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:27:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:27:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:37:32:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:33:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:37:33:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:34:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:37:34:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:34:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:34:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:34:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:34:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:34:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:34:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:34:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:37:34:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:34:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:34:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:34:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:34:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:34:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:34:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:34:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:37:39:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:40:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:37:40:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:41:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:37:41:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:41:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:41:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:41:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:41:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:41:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:41:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:41:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:37:41:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:41:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:41:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:41:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:41:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:41:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:41:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:41:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:37:46:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:47:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:37:47:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:48:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:37:48:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:48:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:48:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:48:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:48:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:48:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:48:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:48:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:37:48:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:48:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:48:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:48:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:48:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:48:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:48:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:48:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:37:53:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:54:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:37:54:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:37:55:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:37:55:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:55:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:55:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:55:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:55:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:55:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:55:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:55:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:37:55:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:55:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:37:55:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:55:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:37:55:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:55:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:37:55:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:37:55:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:38:00:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:38:01:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:38:01:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:38:02:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:38:02:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:02:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:38:02:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:02:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:38:02:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:02:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:38:02:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:02:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:38:02:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:02:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:38:02:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:02:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:38:02:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:02:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:38:02:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:02:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:38:07:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:38:08:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:38:08:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:38:09:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:38:09:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:09:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:38:09:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:09:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:38:09:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:09:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:38:09:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:09:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:38:09:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:09:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.3
+DEBUG   :    22:38:09:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:09:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.4
+DEBUG   :    22:38:09:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:09:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.2
+DEBUG   :    22:38:09:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:09:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:38:14:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:38:15:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:38:15:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:38:16:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:38:16:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:16:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:38:16:     ApplyML: line 363 : Classification prediction: [1], confidence: 1.0
+DEBUG   :    22:38:16:     ApplyML: line 368 : Applying action drophost with confidence level 100.0 source IP 10.0.0.5
+DEBUG   :    22:38:21:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:38:21:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/port/json HTTP/1.1" 200 None
+DEBUG   :    22:38:21:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:38:21:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/core/switch/all/flow/json HTTP/1.1" 200 None
+DEBUG   :    22:38:26:   _new_conn: line 208 : Starting new HTTP connection (1): 127.0.0.1
+DEBUG   :    22:38:26:_make_request: line 396 : http://127.0.0.1:8080 "GET /wm/staticflowpusher/clear/all/json HTTP/1.1" 200 31
